@@ -13,6 +13,3 @@ for c in C:
         code = (code - ord('A') - shift) % 26 + ord('A')
     M += chr(code)
 print(M)
-print(ord('a'))
-print(ord('A'))
-print((ord('c') - ord('a') - 13) % 26)
